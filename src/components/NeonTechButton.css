@@ -1,0 +1,26 @@
+.neon-tech-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  color: #00ff66;
+  background: #1a1a1a;
+  border: 2px solid #00ff00;
+  border-radius: 0px;
+  box-shadow: 0 0 6px #00ff00, 0 0 12px #00ff00;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.neon-tech-button:hover {
+  background-color: rgba (0, 0, 0, 0.5);
+  transform: scale(1.03);
+}
+
+.tech-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}

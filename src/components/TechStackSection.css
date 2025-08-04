@@ -1,0 +1,31 @@
+.tech-stack-wrapper {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.tech-button-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  padding: 0 16px;
+}
+
+.neon-line-below {
+  width: 4px;
+  height: 85px;
+  margin: 1 auto;
+  background-color: #00ff00;
+  box-shadow: 0 0 8px #00ff00, 0 0 12px #00ff00;
+  animation: neonPulse 1.8s ease-in-out infinite,
+    moveLineUpDown 2s ease-in-out infinite;
+}
+
+.neon-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #00ff00;
+  border-radius: 50%;
+  margin: 1px auto; /* <-- Jarak sangat dekat ke garis */
+  box-shadow: 0 0 8px #00ff00, 0 0 12px #00ff00;
+}

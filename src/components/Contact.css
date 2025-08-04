@@ -1,0 +1,107 @@
+.contact-wrapper {
+  margin-top: 3rem; /* Jarak dari tulisan Contact */
+}
+
+/* Kontainer utama */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+/* Judul CONTACT */
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+  margin-bottom: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Form Container (melebarkan sesuai kebutuhan) */
+.contact-form {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border: 2px solid #00ff00;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Baris input 2 kolom */
+.contact-row {
+  display: flex;
+  gap: 20px;
+}
+
+/* Input umum */
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid #00ff00;
+  background: black;
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ff00 inset;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Hover & Fokus */
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  border-color: #00ff00;
+  box-shadow: 0 0 15px #00ff00, 0 0 5px #00ff00 inset;
+}
+
+/* Tombol Submit */
+.contact-form button {
+  background-color: black;
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+/* Tombol Hover */
+.contact-form button:hover {
+  background-color: #00ff00;
+  color: black;
+  box-shadow: 0 0 25px #00ff00, 0 0 45px #00ff00;
+  transform: scale(1.03);
+}
+
+/* Textarea besar */
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Responsive untuk mobile */
+@media (max-width: 768px) {
+  .contact-row {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+}

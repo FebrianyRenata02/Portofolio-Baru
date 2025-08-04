@@ -1,0 +1,42 @@
+/* src/components/Navbar.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 97%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #00ff00;
+  padding: 0 20px;
+  z-index: 999;
+}
+
+.navbar-logo {
+  color: #00ff00;
+  font-size: 18px;
+  font-family: "Courier New", monospace;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: #00ff00;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #00ff00;
+}

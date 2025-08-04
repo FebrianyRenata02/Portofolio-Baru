@@ -1,0 +1,80 @@
+/* Pembungkus luar supaya footer bisa keluar dari batas max-width container */
+.footer-wrapper {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+}
+
+/* Footer utama */
+.footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #00ff00;
+  box-shadow: 0 -0.5px 20px #00ff00;
+  padding: 40px 20px 20px;
+  text-align: center;
+  z-index: 5;
+  position: relative;
+}
+
+/* Isi dalam footer */
+.footer-inner {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #00ff00;
+}
+
+/* Ikon sosial */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #00ff00;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #33ff33;
+  transform: scale(1.2);
+}
+
+/* Menu navigasi footer */
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-menu a {
+  color: #00ff00;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.footer-menu a:hover {
+  color: #00ff00;
+}
+
+/* Credit info */
+.credit {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.credit b {
+  color: #fff;
+}

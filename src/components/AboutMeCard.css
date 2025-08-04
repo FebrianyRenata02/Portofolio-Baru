@@ -1,0 +1,35 @@
+.about-me-card {
+  background-color: #0a0a0a;
+  border: 1px solid #00ff00;
+  box-shadow: 0 0 15px #00ff00;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-family: "Courier New", monospace;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  animation: fade-in 1s ease-in-out;
+}
+
+.about-me-card h2 {
+  color: #00ff00;
+  margin-bottom: 10px;
+}
+
+.about-me-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

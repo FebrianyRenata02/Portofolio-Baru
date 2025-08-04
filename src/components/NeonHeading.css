@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.neon-heading {
+  font-family: "Audiowide", sans-serif;
+  padding: 3rem;
+  cursor: pointer;
+  font-size: 2.2rem; /* ✅ Ukuran dikecilkan dari sebelumnya */
+  text-align: center;
+  color: #ffffff; /* ✅ Ubah warna jadi putih */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 40px 0;
+  text-shadow: 0 0 3px #ffffff, 0 0 6px #00ffcc, 0 0 10px #00ff00;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,49 @@
+.shiny-center {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.shiny-button {
+  background-color: transparent;
+  border: 2px solid #00ff00;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px #00ff00, 0 0 20px #00ff00;
+  width: 200px;
+  height: 100px;
+}
+
+.shiny-button:hover {
+  background-color: rgba(0, 255, 102, 0.1);
+  box-shadow: 0 0 15px #00ff00, 0 0 30px #00ff00;
+}
+
+.shiny-center {
+  margin-top: 0;
+}
+
+.neon-line {
+  width: 4px;
+  height: 85px;
+  background: #00ff00;
+  box-shadow: 0 0 8px #00ff00, 0 0 16px #00ff00, 0 0 24px #00ff00;
+  border-radius: 2px;
+  margin: 12px auto 0 auto; /* center + spasi atas */
+  animation: neonPulse 1.8s ease-in-out infinite,
+    moveLineUpDown 2s ease-in-out infinite;
+}
+
+.under-button-line {
+  margin-top: 16px;
+}
+
+.neon-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #00ff00;
+  border-radius: 50%;
+  margin: 1px auto;
+  box-shadow: 0 0 8px #00ff00, 0 0 12px #00ff00;
+}

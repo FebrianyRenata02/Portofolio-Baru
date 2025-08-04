@@ -1,0 +1,27 @@
+.job-card {
+  background: rgba(0, 0, 0, 0.5);
+  color: #00ff00;
+  font-family: "Courier New", monospace;
+  border-radius: 10px;
+  width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 0 20px #00ff00;
+  overflow: hidden;
+}
+
+.job-card-header {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px 20px;
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 2px solid #00ff00;
+}
+
+.job-card-body {
+  padding: 20px;
+  white-space: pre-wrap;
+}
+
+.job-indent {
+  margin-left: 20px;
+}
