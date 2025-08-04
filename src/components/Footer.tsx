@@ -1,19 +1,19 @@
 import React from "react";
 import "./Footer.css";
-import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-inner">
         <div className="social-icons">
-          <a href="#">
+          <a href="https://www.instagram.com/renata_official_123/">
             <FaInstagram />
           </a>
-          <a href="#">
-            <FaTwitter />
+          <a href="https://www.youtube.com/@renataofficial5419">
+            <FaYoutube />
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/febriany.renata/">
             <FaFacebook />
           </a>
         </div>
