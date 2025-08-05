@@ -6,7 +6,11 @@ interface NeonHeadingProps {
 }
 
 const NeonHeading: React.FC<NeonHeadingProps> = ({ text }) => {
-  return <h1 className="neon-heading">{text}</h1>;
+  return (
+    <div className="neon-heading-wrapper">
+      <h1 className="neon-heading">{text}</h1>
+    </div>
+  );
 };
 
 export default NeonHeading;
