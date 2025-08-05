@@ -1,18 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.neon-heading-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 60px;
+  text-align: center;
+}
 
 .neon-heading {
   font-family: "Audiowide", sans-serif;
-  padding: 3rem;
-  cursor: pointer;
-  font-size: 2.2rem; /* ✅ Ukuran dikecilkan dari sebelumnya */
-  text-align: center;
-  color: #ffffff; /* ✅ Ubah warna jadi putih */
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 40px 0;
   text-shadow: 0 0 3px #ffffff, 0 0 6px #00ffcc, 0 0 10px #00ff00;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  font-size: 2.8rem;
+  line-height: 1.4;
+  margin: 0;
+  white-space: nowrap;
+  max-width: 100%;
+  padding: 2rem;
+}
+
+/* Tablet dan HP */
+@media (max-width: 768px) {
+  .neon-heading {
+    white-space: normal; /* Izinkan wrapping */
+    font-size: 1.8rem; /* Ukuran lebih kecil */
+    max-width: 90vw; /* Batasi lebar maksimal */
+    margin: 0 auto;
+  }
+}
+
+/* HP Kecil */
+@media (max-width: 480px) {
+  .neon-heading {
+    font-size: 1.4rem;
+    max-width: 95vw;
+  }
 }
